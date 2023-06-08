@@ -1,0 +1,50 @@
+.not-found {
+    background: url("../../assets/images/uvt-front.jpg") rgba(28, 61, 77, 0.8);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 30px;
+}
+
+.not-found > h1 {
+    color: rgb(255, 208, 0);
+    font-size: 50px;
+}
+
+.not-found > h3 {
+    color: rgb(255, 208, 0);
+}
+
+.not-found > a {
+    background-color: transparent;
+    border: 3px solid rgb(255, 187, 0);
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 15px;
+    transition: 0.2s;
+    color: rgb(255, 187, 0);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.not-found > a > * {
+    margin-inline: 5px;
+}
+
+.not-found > a > svg {
+    margin-bottom: 2px;
+}
+
+.not-found > a:hover {
+    background-color: rgb(255, 187, 0);
+    color: #3c5456;
+    border-color: rgb(255, 187, 0);
+    transition: 0.2s;
+}

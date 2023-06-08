@@ -1,0 +1,153 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background: linear-gradient(30deg, #1c3d4d, #3c5456);
+    border-bottom: 3px solid rgb(255, 187, 0);
+}
+
+
+@media (max-width: 500px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-profile-button {
+        margin: 0px !important;
+    }
+}
+
+
+/* LOGO */
+
+.header-logo {
+    margin-inline: 20px;
+    display: flex;
+    align-items: center;
+    height: 95px;
+}
+
+.header-logo:hover > img {
+    transform: matrix3d(0.94,0,0.34,0.001,0.00,1,0.00,0,-0.34,0,0.94,0,0,0,0,1);
+    -webkit-transform: matrix3d(0.94,0,0.34,0.001,0.00,1,0.00,0,-0.34,0,0.94,0,0,0,0,1);
+    transition: 0.3s;
+}
+
+.header-logo:hover > h2 {
+    color: rgb(255, 187, 0);
+    transition: 0.3s;
+}
+
+
+.header-logo > h2 {
+    color: rgb(255, 208, 0);
+}
+
+.header-logo > img {
+    width: 100px;
+    height: 90px;
+    transition: 0.3s;
+}
+
+
+
+
+/* BUTTONS */
+
+.auth-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button, .signup-button {
+    margin: 5px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.login-button {
+    color: #1c3d4d;
+    background-color: rgb(255, 208, 0);
+    border: 2px solid #1c3d4d;
+    transition: 0.2s;
+}
+
+.login-button:hover {
+    background-color: rgb(255, 187, 0);
+    transition: 0.2s;
+}
+
+.signup-button {
+    background-color: #1c3d4d;
+    color: rgb(255, 208, 0);
+    border: 2px solid rgb(255, 208, 0);
+    transition: 0.2s;
+}
+
+.signup-button:hover {
+    background-color: #3c5456;
+    transition: 0.2s;
+}
+
+
+
+/* USER PROFILE */
+
+.user-profile-button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 208, 0);
+    height: 55px;
+    padding: 0 10px;
+    margin: 20px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.user-profile-button:hover {
+    background-color: rgb(255, 187, 0);
+    transition: 0.2s;
+}
+
+.avatar-header {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.username {
+    color: white;
+    margin-inline: 10px;
+    font-size: 18px;
+}
+
+
+.user-menu {
+    position: absolute;
+    right: 1%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #1c3d4d;
+    border: 2px solid rgb(255, 187, 0);
+    border-radius: 10px;
+}
+
+.user-menu-link {
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: rgb(255, 187, 0);
+    border-radius: 5px;
+    width: 100%;
+}

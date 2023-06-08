@@ -1,0 +1,44 @@
+.main {
+    background: url("../../assets/images/uvt.jpg") rgba(28, 61, 77, 0.8);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > div > * {
+    margin: 10px;
+    text-align: center;
+}
+
+.main > div {
+    background-color: white;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > div > h3 {
+    letter-spacing: 3px;
+}
+
+.classroom-link {
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    color: rgb(28, 61, 77);
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.classroom-link:hover {
+    background-color: rgb(255, 187, 0);
+    transition: 0.2s;
+}

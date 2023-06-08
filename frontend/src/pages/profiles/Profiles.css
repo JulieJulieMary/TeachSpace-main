@@ -1,0 +1,55 @@
+.profiles {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.avatar {
+    width: 100px;
+    height: auto;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+.user-profile {
+    border: 2px solid black;
+    padding: 30px;
+    margin: 30px 10px;
+    background-color: #ffd413;
+    border-radius: 10px;
+    width: 450px;
+}
+
+.profile-header {
+    display: flex;
+}
+
+.profile-header > .username {
+    margin-left: 30px;
+}
+
+.profile-header > .username > h3 {
+    color: black;
+    font-weight: 700;
+}
+
+.profile-header > .username > span {
+    color: #3f7f88;
+    font-size: 20px;
+}
+
+
+.profile-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-body > div {
+    margin-top: 15px; 
+}
+
+.profile-body > div > h3 {
+    color: #3f7f88;
+    font-weight: 700;
+}

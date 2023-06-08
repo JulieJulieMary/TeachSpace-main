@@ -1,0 +1,21 @@
+footer {
+    margin-top: auto;
+    border-top: 3px solid rgb(255, 187, 0);
+    background: linear-gradient(30deg, #1c3d4d, #3c5456);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > .logo > img {
+    width: 110px;
+    height: 100px;
+    transition: 0.3s;
+}
+
+footer > .logo > img:hover {
+    transform: matrix3d(0.94,0,0.34,0.001,0.00,1,0.00,0,-0.34,0,0.94,0,0,0,0,1);
+    -webkit-transform: matrix3d(0.94,0,0.34,0.001,0.00,1,0.00,0,-0.34,0,0.94,0,0,0,0,1);
+    transition: 0.3s;
+}

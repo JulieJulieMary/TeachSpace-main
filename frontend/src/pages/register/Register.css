@@ -1,0 +1,13 @@
+.name-forms {
+    display: flex;
+}
+
+.name-forms > div {
+    width: 100%;
+}
+
+@media (max-width: 450px) {
+    .name-forms {
+        flex-direction: column;
+    }
+}
